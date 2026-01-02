@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Endo Resources</title>
+    <link rel="icon" href="https://i.pinimg.com/originals/bd/93/d9/bd93d9c510974e309dea35c06c60fb2a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <header>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="details.html">Details & Articles</a></li>
+                        <li><a href="home-remedies.html">Home Remedies</a></li>
+                        <li><a href="medical-studies.html">Medical Studies</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </header>
+        </nav>
+        <div class="details">
+            <h1>Details & Articles</h1>
+            <p2><br><i>Endometriosis is hard to find details on, but I found that these
+                two articles are extremely helpful in providing some clarity.
+                Alongside the summaries and diagrams, the full articles are
+                linked for further research.</i>
+            </p2>
+        </div>
+    </section>
+
+    <section class="details-further">
+        <div class="row">
+            <div class="details-col">
+                <h1>Cleveland Clinic Article</h1>
+                <p>This article has tons of detailed information, but keep in mind some is more
+                    extreme than what normally occurs. Though endometriosis can expand into 
+                    something much worse, in many cases women suffer with tinier symptoms without 
+                    knowing it falls under this condition.
+                <br/>
+                <p>
+                    Endometriosis is a long-term, inflammatory condition that can progress over
+                    time and vary widely in severity, sometimes worsening without consistent
+                    management. The article emphasizes that the condition is often underdiagnosed
+                    or diagnosed years after symptoms begin, partly because definitive diagnosis 
+                    usually requires a laparoscopic surgical procedure, not just imaging or 
+                    exams. Endometriosis can also lead to complications such as scar tissue 
+                    (adhesions), organ distortion, and infertility, depending on where the 
+                    tissue grows. While there is no cure, treatment focuses on managing 
+                    inflammation, slowing disease progression, and preserving quality of 
+                    life, and care often needs to be individualized and adjusted over time 
+                    as symptoms and life goals (like fertility) change.</p>
+                    <a href="https://my.clevelandclinic.org/health/diseases/10857-endometriosis" target="_blank" rel="noopener noreferrer" class="hero-btn blue-btn">Click Here for Full Article</a>
+            </div>
+            <div class="details-col">
+                <img src="cleveland-diagram.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="details-further2">
+        <div class="row2">
+            <div class="details-col2">
+                <h1>World Health Organization (WHO)</h1>
+                <p>Endometriosis is a chronic disease affecting about 10% of
+                    people of reproductive age worldwide (around 190 million), in
+                    which tissue similar to the lining of the uterus grows outside the
+                    uterus, causing inflammation, scar tissue, and a wide range of symptoms
+                    such as severe menstrual pain, chronic pelvic pain, heavy bleeding,
+                    pain during intercourse, bowel or urinary discomfort, bloating, nausea,
+                    fatigue, and troubles with fertility. <br> <br> It can occur inside and, in rare
+                    cases, outside the pelvis, and while there’s no known cure or way to
+                    prevent it, treatments—including pain medication, hormonal therapies, and
+                    surgery—focus on managing symptoms and improving quality of life.
+                    Diagnosis is often delayed due to variable symptoms and limited awareness,
+                    especially in many countries with fewer healthcare resources. <br> <br>
+                    Endometriosis also has significant social, economic, and mental health
+                    impacts, and improving early diagnosis, care access, and awareness is a
+                    global health priority.</p>
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/endometriosis" target="_blank" rel="noopener noreferrer" class="hero-btn blue-btn">Click Here for Full Article</a>
+            </div>
+        </div>
+    </section>
+
+        <section class="details-further3">
+        <div class="row3">
+            <div class="details-col3">
+                <h1>Mayo Clinic Explains</h1>
+                <div class="video-wrap">
+                    <iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/uu0EKzRBvg4" title="Mayo Clinic Explains" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>

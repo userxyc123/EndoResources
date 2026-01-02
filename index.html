@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Endo Resources</title>
+    <link rel="icon" href="https://i.pinimg.com/originals/bd/93/d9/bd93d9c510974e309dea35c06c60fb2a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <header>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="details.html">Details & Articles</a></li>
+                        <li><a href="home-remedies.html">Home Remedies</a></li>
+                        <li><a href="medical-studies.html">Medical Studies</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </header>
+        </nav>
+        <div class="text-box">
+            <h1>What is Endometriosis?</h1>
+            <p2><br><i>Endometriosis is a condition where tissue similar to the lining
+                of the uterus grows outside the uterus, causing pain and other symptoms.
+                It is a common condition with no concrete solution. Scroll down
+                to see more general information.</i>
+            </p2>
+        </div>
+    </section>
+    
+
+<!----general information---->
+<section class="genInfo">
+    <h1>General Summary</h1>
+    <p1><br>For a quick overview of endometriosis, read the key sections below:</p1>
+</section>
+
+<section class="gen-further">
+    <div class="row">
+        <div class="gen-col">
+            <h3>Where is endometriosis the<br> most common?</h1>
+            <p><br>Endometriosis most commonly affects the following areas:
+                <br>- pelvic region
+                <br>- ovaries
+                <br>- fallopian tubes
+                <br>- outer surface of the uterus
+                <br>- lowerback
+            </p>
+        </div>
+        <div class="gen-col">
+            <h3>What are some of the common symptoms?</h1>
+            <p><br>The most common symptoms of endometriosis include:
+                <br>- pelvic pain
+                <br>- painful periods (dysmenorrhea)
+                <br>- pain during intercourse
+                <br>- pain with bowel movements or urination
+                <br>- excessive bleeding
+                <br>- infertility
+            </p>
+        </div>
+        <div class="gen-col">
+            <h3>What do doctors typically recommend?</h1>
+            <p><br>Doctors typically recommend a combination of pain management strategies and lifestyle changes for individuals with endometriosis. These may include:
+                <br>- Over-the-counter pain relievers (e.g., ibuprofen)
+                <br>- Hormonal therapies (e.g., birth control pills, GnRH agonists)
+                <br>- Lifestyle modifications (e.g., diet changes, exercise)
+                <br>- Physical therapy
+                <br>- Surgery (in severe cases)
+                <br> However, these treatments are typically unreliable and there is still no concrete cure. Home remedies greatly help, so see the other pages!
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>

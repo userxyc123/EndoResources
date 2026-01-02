@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Endo Resources</title>
+    <link rel="icon" href="https://i.pinimg.com/originals/bd/93/d9/bd93d9c510974e309dea35c06c60fb2a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <header>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="details.html">Details & Articles</a></li>
+                        <li><a href="home-remedies.html">Home Remedies</a></li>
+                        <li><a href="medical-studies.html">Medical Studies</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </header>
+        </nav>
+        <div class="hr">
+            <h1>Home Remedies</h1>
+            <p2><br><i>Most home remedies are simple and easy, such as using heat pads, herbal teas, and gentle exercises to alleviate symptoms.
+                Some of my favorite ways to regain balance are listed below.
+            </i></p2>
+        </div>
+    </section>
+
+    <section class="hr-further">
+        <div class="hr-row">
+            <div class="hr-col">
+                <h1>Heat Pads</h1>
+                <p>Applying heat to the affected areas can help soothe discomfort. Though many 
+                    suggest heated blankets, ranging around $40+, there are also more affordable
+                    options such as disposable heat patches that come around a dozen per box.
+                    I would recommend either, but heat patches have a bonus of being travel-friendly.
+                    See below for product links.
+                </p>
+                <div class="btn-row">
+                    <a href="https://www.nytimes.com/wirecutter/reviews/best-heating-pad/" class="hero-btn btn" target="_blank">Heated Blankets</a>
+                    <a href="https://www.amazon.com/Best-Sellers-Adhesive-Heat-Patches/zgbs/hpc/3763861" class="hero-btn btn" target="_blank">Heat Patches</a>
+                </div>
+                <div class="hr-col"></div>
+                    <img src="https://cdn.thewirecutter.com/wp-content/media/2025/06/BEST-HEATING-PADS-7938-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp" alt="Heating Pads">
+                </div>
+            </div>
+            <br>
+            <div class="hr-col">
+                <h1>Herbal Teas</h1>
+                <p>Certain herbal teas, like chamomile and peppermint, can have calming effects and may help with symptoms.
+                    The Trader Joe's Turmeric Ginger Tea is one the best options.
+                </p>
+                <a href="https://www.traderjoes.com/home/products/pdp/organic-ginger-turmeric-herbal-tea-056397" class="hero-btn btn" target="_blank">Turmeric Ginger Tea</a>
+                <div class="hr-col"></div>
+                    <img src="https://www.traderjoes.com/content/dam/trjo/context-images/56397-ginger-turmeric-tea-pdp.jpg/jcr:content/renditions/webp-1280.webp" alt="Herbal Teas">
+                </div>
+            </div>
+            <br>
+            <div class="hr-col">
+                <h1>Gentle Exercises</h1>
+                <p>Engaging in gentle exercises, such as yoga or stretching, can promote relaxation and balance.
+                </p>
+                <a href="https://www.healthline.com/health/fitness/yoga-for-endometriosis" class="hero-btn btn" target="_blank">Learn More</a>
+                <div class="hr-col"></div>
+                    <img src="https://endometriosis.net/wp-content/uploads/2022/06/E-living-yoga-for-pelvic-pain.jpg" alt="Gentle Exercises">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>

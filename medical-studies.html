@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Endo Resources</title>
+    <link rel="icon" href="https://i.pinimg.com/originals/bd/93/d9/bd93d9c510974e309dea35c06c60fb2a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <header>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="details.html">Details & Articles</a></li>
+                        <li><a href="home-remedies.html">Home Remedies</a></li>
+                        <li><a href="medical-studies.html">Medical Studies</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </header>
+        </nav>
+        <div class="sources">
+            <h1>Medical Studies</h1>
+            <p2><br><i>Here, you can find medical studies that are still researching
+                this condition. Though hard to understand sometimes, the ongoing
+                research is crucial for developing better treatment options and understanding
+                the complexities of endometriosis, as well as simply interesting.
+                These are a few of my favorite studies:</i>
+            </p2>
+        </div>
+    </section>
+
+    <section class="sources-further">
+        <div class="row">
+            <div class="sources-col">
+                <h1>Medical Studies</h1>
+                <p>Here are some brilliant research studies that are currently
+                    deciphering the condition and complexities of endometriosis. Studies, clinical
+                    trials, and ongoing research are crucial for developing better treatment options.
+                </p>
+                <p>
+                    <i>Twenty Five Years of Research on Endometriosis</i>
+                </p>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S1472648325000379" class="hero-btn blue-btn" target="_blank">View Study</a>
+                <p>
+                    <br><br><i>Find a Study</i>
+                </p>
+                    <a href="https://www.nichd.nih.gov/health/topics/endometri/clinicaltrials" class="hero-btn btn" target="_blank">View Studies</a>
+                <p>
+                    <br><br><i>Clinical Trials</i>
+                </p>
+                    <a href="https://www.mayo.edu/research/clinical-trials/diseases-conditions/endometriosis" class="hero-btn btn" target="_blank">View Trials</a>
+            </div>
+            <div class="sources-col2">
+                <h1>The Importance</h1>
+                <p>Struggling with endometriosis is challenging, especailly when there is little
+                    to no solution available. Research studies, clinical trials, articles, videos,
+                    have all shed little light on this condition, but there is still a long way to go.
+                    Female health research is extremely bare, often overlooked, underfunded, and this 
+                    needs to change.
+                    <br><br>
+                    Women should not feel neglected by doctors and society, and we
+                    need to be heard. The more we educate ourselves and the more we speak up, the more
+                    the research community will pay attention. Female health must improve, and we can start 
+                    here. I encourage you to research on your own, share this website, post about this,
+                    and never shy away from conversations that may seem "uncomfortable" at first.
+                    <br><br>
+                    If you've made it this far, I appreciate your time. Feel free to reach out if you have
+                    any questions or need support.
+                    <br><br>
+                </p>
+                    <a href="https://www.linkedin.com/in/sakshi-verma-4071b526b" class="hero-btn btn" target="_blank">Reach Out</a>
+            </div>
+        </div>
+    </section>
+
+<!----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>
